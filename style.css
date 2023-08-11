@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: Courier, monospace;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 150px;
+    background-color: rgb(91, 89, 89);
+    color: black;
+}
+
+.navbar ul {
+
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+
+
+.navbar2 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    font-family: sans-serif;
+}
+
+.hero-section {
+    height: 250px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-block: 40px;
+    background-color: rgb(243, 235, 235);
+}
+
+.hero-section h1 {
+    height: 150px;
+    width: 100%;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.hero-section h3 {
+    height: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.hero-section a {
+    height: 100px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.img {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 235, 235);
+}
+
+.ip14pro {
+    height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    gap: 10px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.ip14pro h1{
+    font-weight: 450;
+    font-size: 60px;
+}
+.ip14pro h3{
+    font-weight: 300;
+    font-size: 40px;
+}
+.ip14pro img{
+    height: 700px;
+    width: 100%;
+}
+.ip14{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+    gap: 10px;
+    border-bottom: 10px solid rgb(255, 255, 255);
+}
+.ip14 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+.ip14 h5{
+    font-size: 35px;
+    font-weight: 550;
+}
+.ip14 img{
+    height: auto;
+    width: 100%;
+    border-bottom: 25px solid white;
+}
+.product-part{
+    height: auto;
+    width: 100%;
+    padding-top: 12px;
+    border-bottom: 15px solid rgb(66, 87, 34);
+    border: 10px solid white;
+}
+.productline1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+}
+.switch{
+    height: 500px;
+    width: 50%;
+    padding-top: 10px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid white;
+}
+.macbook{
+    height: 500px;
+    width: 50%;
+    padding-top: 10px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(255, 237, 255);
+    border: 7px solid white;
+}
+.productline2{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+}
+.iwatch{
+    height: 450px;
+    width: 50%;
+    padding-top: 15px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 7px solid white;
+}
+.ipad{
+    height: 450px;
+    width: 50%;
+    padding-top: 15px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 7px solid white;
+}
+.productline3{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+}
+.airpods{
+    height: 450px;
+    width: 50%;
+    padding-top: 15px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 7px solid white;
+}
+.trade{
+    height: 450px;
+    width: 50%;
+    padding-top: 15px;
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(234, 232, 232);
+    border: 7px solid white;
+}
+.trade img{
+    height: 200px;
+}
+.about{
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 280px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    gap: 5px;
+}
+.about hr{
+    width: 90%;
+}
+.footer{
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-right: 100px;
+    padding-left: 80px;
+    
+}
+.footer ul{
+    width: 100%;
+    padding-left: 180px;
+    justify-content: center;
+    /* background-color: red; */
+    line-height: 30px;
+}
+.footer ul li{
+    list-style: none;
+    /* line-height: 20px; */
+    font-size: 14px;
+}
+.footer ul h5{
+    font-size: 15px;
+    display: flex;
+}
+.faq1{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    border-bottom: 10px solid white;
+}
+#hr7{
+    width: 100%;
+}
+.faq{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(255, 255, 255);
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    font-family: sans-serif;
+}
+.faq ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.faq ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.faq :first-child{
+    width: 29%;
+    justify-content: flex-start;
+}
+
+/* responsive css */
+@media (max-width : 768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+
+    }
+    .navbar{
+        width: 100%;
+
+
+        
+    }
+    .navbar ul li:nth-child(2){
+        display: none;
+    }
+    .navbar ul li:nth-child(3){
+        display: none;
+    }
+    .navbar ul li:nth-child(4){
+        display: none;
+    }
+    .navbar ul li:nth-child(5){
+        display: none;
+    }
+    .navbar ul li:nth-child(6){
+        display: none;
+    }
+    .navbar ul li:nth-child(7){
+        display: none;
+    }
+    .navbar ul li:nth-child(8){
+        display: none;
+    }
+    .navbar ul li:nth-child(9){
+        display: none;
+    }
+    .navbar ul li:nth-child(10){
+        display: none;
+    }
+
+    .navbar ul li:nth-child(11){
+        display: none;
+    }
+    .navbar ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbar2{
+        display: none;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 400px;
+
+    }
+    
+    .hero-section h1{
+        font-size: 30px;
+    }
+    .hero-section h3{
+        font-size: 20px;
+    }
+    .img img{
+        width: 100%;
+        height: auto;
+    }
+    .ip14pro{
+        width: 100%;
+        height: auto;
+    }
+    .ip14pro h1{
+        font-size: 30px;
+    }
+    .ip14pro h3{
+        font-size: 20px;
+    }
+    .ip14pro img{
+        width: 100%;
+        height: auto;
+    }
+
+    .ip14{
+        width: 100%;
+        height: auto;
+    }
+    .ip14 h1{
+        font-size: 30px;
+
+    }
+    .ip14 h3{
+        font-size: 20px;
+    }
+    .ip14 img{
+        width: 100%;
+        height: auto;
+    }
+    .product-part{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productline1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productline1 .switch{
+        height: auto;
+        width: 100%;
+    }
+    .productline1 .macbook{
+        height: auto;
+        width: 100%;
+    }
+    .productline2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productline2 .iwatch{
+        height: auto;
+        width: 100%;
+    }.productline2 .ipad{
+        height: auto;
+        width: 100%;
+    }
+    .productline3{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productline3 .airpods{
+        height: auto;
+        width: 100%;
+    }
+    .productline3 .trade{
+        height: auto;
+        width: 100%;
+    }
+    .productline3 .trade .img{
+        height: 10px;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer ul li{
+        display: none;
+    }
+    .faq1{
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
